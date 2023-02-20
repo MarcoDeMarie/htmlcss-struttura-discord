@@ -6,13 +6,14 @@
 
 
   /*HEADER*/
+
   /*MENU*/
 .contenitore-1{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: lightblue;
-  height: 80px;
+  height: 100px;
 }
 
 ul li{
@@ -24,7 +25,7 @@ ul li{
   justify-content: space-between;
   background-color: burlywood;
   border: 1px dashed black;
-  height: 50px;
+  height: 80px;
   width: 1170px;
 }
 
@@ -65,18 +66,133 @@ ul li{
   align-items: center;
   justify-content: center;
   background-color: blue;
-  height: 400px;
+  height: 650px;
 }
 
 
 .contenitore-2 div{
   border: 1px dashed black;
-  background-color: pink;
-  height: 300px;
-  min-width: 700px;
+  background-color: rgb(189, 66, 152);
+  height: 450px;
+  min-width: 1000px;
 }
 /*CONTENUTO*/
 /*HEADER*/
+
+
+/*MAIN*/
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main section{
+  height: 1000px;
+}
+
+.sc{
+  display: flex;
+  align-items: center;
+}
+
+
+.sc div{
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  min-width: 1000px;
+}
+
+.blu{
+  border: 1px dashed black;
+  min-width: 60%;
+  background-color: rgb(0, 174, 255);
+}
+
+section div aside{
+  border: 1px dashed black;
+  height: 600px;
+  min-width: 40%;
+  background-color: pink;
+}
+
+.sc-1 div{
+  min-width: 1400px;
+  background-color: green;
+  height: 850px;
+}
+/*MAIN*/
+
+
+
+/*FOOTER*/
+footer section>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+
+footer ul{
+  display: flex;
+  color: white;
+  height: 550px;
+  min-width: 600px;
+  border: 1px dashed white;
+}
+
+footer ul li{
+  background-color: aquamarine;
+  border: 1px dashed white;
+  width: 25%;
+}
+
+.contenuto{
+  background-color: rgb(204, 132, 132);
+  height: 550px;
+  min-width: 300px;
+}
+
+.contenitore-3{
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100px
+}
+
+.logo-2{
+  display: flex;
+  background-color: rgb(204, 132, 132);
+  border: 1px dashed black;
+}
+
+.bottone{
+  display: flex;
+  background-color: rgb(204, 132, 132);
+  border: 1px dashed black;
+}
+
+.contenitore-3>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  width: 900px;
+  height: 60px;
+}
+
+
+
+
+
+
+
 
 
 
