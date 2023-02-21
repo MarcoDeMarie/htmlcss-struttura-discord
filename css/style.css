@@ -150,5 +150,13 @@ footer .top .info{
   border: 1px dashed black;
 }
 
+footer .bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(37, 131, 9);
+}
+
 
 /*FOOTER*/
